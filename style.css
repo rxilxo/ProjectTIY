@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=El+Messiri:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=El+Messiri:wght@500&family=Poppins:wght@300&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif Arial, sans-serif;
+  font-family: "El Messiri", sans-serif;
+  font-size: 0.9rem;
+}
+
+nav {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 -4px 10px 1px;
+  height: 4em;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+
+.logo {
+  position: absolute;
+  top: 23%;
+  right: 2%;
+}
+.links {
+  display: flex;
+  margin-right: 10rem;
+  justify-content: flex-start;
+}
+.links li {
+  margin-left: 1.5em;
+}
+
+.right {
+  position: relative;
+  display: flex;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  align-content: space-around;
+  justify-content: space-evenly;
+  margin-left: 1%;
+}
+
+.left button {
+  font-family: "Cairo", sans-serif Arial, sans-serif;
+  font-family: "El Messiri", sans-serif;
+  margin-right: 15px;
+  background-color: transparent;
+  border: 2px solid #00adbb;
+  cursor: pointer;
+}
+
+.left .login {
+  border: 2px solid #00adbb;
+  color: #00adbb;
+}
+button {
+  border-radius: 0.3em;
+  height: 2em;
+  width: 8em;
+  font-size: 1.1rem;
+}
+.left .register {
+  background-color: #00adbb;
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5rem;
+  height: 50em;
+  flex-wrap: wrap;
+  margin-top: 5%;
+}
+
+.card {
+  position: relative;
+  display: grid;
+  border-radius: 0.6rem;
+  padding: 2em;
+  height: 65%;
+  width: 16rem;
+  border: 3px solid black;
+  text-align: center;
+  font-size: 1.2rem;
+  transition-duration: 200ms;
+  transition-property: all;
+  box-shadow: 0px 0px 7px 0;
+  font-family: "Cairo", sans-serif;
+  font-family: "El Messiri", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.card button {
+  text-align: center;
+  position: relative;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  padding: 9%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15rem;
+  transition-duration: 200ms;
+  transition-property: all;
+}
+
+.card button h4 {
+  position: relative;
+  bottom: 0.4rem;
+
+  color: white;
+  bottom: 1.8em;
+  transition-duration: 200ms;
+  transition-property: all;
+}
+
+.card img {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70px;
+}
+
+.card:hover {
+  color: white;
+  /* border: 5px solid rgb(238 238 238); */
+  scale: 1.05;
+}
+.twitter:hover {
+  background: linear-gradient(to right, #1da1f2, #009ffc);
+}
+.card:hover h4 {
+  color: black;
+}
+.card:hover button {
+  background: white;
+  color: black;
+  border: 2px rgba((0, 0, 0) 0.3);
+}
+
+.instagram:hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+.youtube:hover {
+  background-color: #de0f0f;
+}
+
+.card:hover .icon-bird,
+.icon-bird:focus {
+  filter: invert(100%);
+}
+.icon {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+}
+
+.card h3 {
+  margin-top: 5%;
+}
+.card p {
+  margin-top: -5%;
+}
+
+footer {
+  padding-top: 3%;
+  margin-top: 20%;
+  position: relative;
+  background-color: #00adbb;
+  color: white;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer img {
+  width: 200px;
+  margin-right: 5vh;
+}
+
+footer .content{
+  margin-top: 3%;
+  display: flex;
+  margin-bottom: 5%;
+}
+
+footer .content h5{ 
+  margin-right: 5vw;
+  cursor: pointer;
+ 
+}
+
+footer .copyright{
+  margin-bottom: 2%;
+  opacity: .8;
+}
+
+footer .content h5::before{
+  content: "";
+  width: 2px;
+  height: 10px;
+  position: absolute;
+  margin-top: -10px;
+  background-color: white;
+ 
+}
